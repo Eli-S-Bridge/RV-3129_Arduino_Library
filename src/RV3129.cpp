@@ -84,7 +84,7 @@ boolean RV3129::begin(TwoWire &wirePort)
 	// setting |= CTRL1_ARST; //Enables clearing of interrupt flags upon read of status register
 	// writeRegister(RV3129_CTRL1, setting);
 
-	set12Hour();
+	//set12Hour();
 	initMSG();
 
 	return(true);
